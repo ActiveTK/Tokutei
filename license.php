@@ -7,7 +7,7 @@
     <meta name="keywords" content="ActiveTK,license">
     <title>利用規約 - 位置情報特定ツール</title>
     <meta name="robots" content="index">
-    <style>}a{color:#c71585;position:relative;display:inline-block}a,a:after{transition:.3s}a:after{position:absolute;bottom:0;left:50%;content:'';width:0;height:2px;background-color:#31aae2;transform:translateX(-50%)}a:hover:after{width:100%}</style>
+    <style>a{color:#c71585;position:relative;display:inline-block}a,a:after{transition:.3s}a:after{position:absolute;bottom:0;left:50%;content:'';width:0;height:2px;background-color:#31aae2;transform:translateX(-50%)}a:hover:after{width:100%}</style>
   </head>
   <body style="background-color:#e6e6fa;color:#000000;">
     <div align="center">
@@ -68,7 +68,7 @@
         その為、取得された情報が正確ではない可能性がありますが、ご了承ください。
         <h3>3条 責任</h3>
         <p>3条第A項</p>
-        <font color="ff0000">本サービスを利用した事によって発生した全ての問題/トラブル/エラーに関する責任に対し、自己の費用と責任をもってこれを解決するものとし、開発者及び開発関係者は一切の責任を負わないものとします。</font>
+        <font color="#ff0000">本サービスを利用した事によって発生した全ての問題/トラブル/エラーに関する責任に対し、自己の費用と責任をもってこれを解決するものとし、開発者及び開発関係者は一切の責任を負わないものとします。</font>
         <p>3条第B項</p>
         本サービスを悪用し、「損害賠償請求された！」などの問題が発生しても開発者及び開発関係者は一切の責任を負わないものとします。
         <br>
