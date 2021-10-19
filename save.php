@@ -50,7 +50,8 @@
     if (isset($_GET["error"]))
     {
       // エラー付きログ
-      $error = $_GET["error"];
+      // 2021/10/19 fix a xss bug: Twitterにてご指摘を頂き気が付いたのですが、$_GET["error"]に対し、htmlspecialcharsを通していませんでした。
+      $error = htmlspecialchars($_GET["error"]);
       if ($error == "noscript") $error = "JavaScriptが無効の為、取得出来ませんでした。";
       else if ($error == "timeout") $error = "実行時間がタイムアウト(30秒)した為、自動的にリダイレクトしました。";
       else if ($error == "noapi") $error = "端末がGeolocation APIに対応していませんでした。";
